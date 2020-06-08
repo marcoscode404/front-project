@@ -1,0 +1,20 @@
+:root {
+    --corVerde: green;
+    --corBranca: rgba(207, 195, 171, 0.205);
+    --corMarrom: #14a02b;
+}
+
+/*pega todos os elemntos do body*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'RobotoRegular';
+}
+
+
+html, body {
+    height: 100%;
+}
+
+

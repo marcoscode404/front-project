@@ -1,0 +1,93 @@
+div.flex-dashboard {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*larura e altura do sidebar lareal*/
+sidebar {
+    display: block;
+    height: 100%;
+    width: 300px;
+    color: var(--corVerde);
+    background: #1c1e21;
+    
+    
+}
+
+
+/*sidebar*/
+sidebar .sidebar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    height: 90px;
+    border: 1px solid rgba(0,0,0, .0625);
+    border-right: 0px; /*tira a borda duplicada do sidebar*/
+    
+    
+
+}
+
+/*imagem /icone*/
+sidebar .sidebar-title img {
+    width: 40px;
+    height: 40px;
+    
+    
+}
+
+sidebar .sidebar-title h2 {
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
+
+/*div menu*/
+div.menu {
+    border: 1px solid rgba(0,0,0, .0625);
+}
+
+
+div.menu ul {
+    list-style-type: none;
+}
+
+/*estilos da li´s*/
+div.menu ul li{
+    border: 1px solid  var(--corBranca);
+    padding: 20px 20px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/*estilizando a cor dos icones */
+div.menu ul li svg {
+    color: #6e8efb;
+    font-size: 25px;
+}
+
+
+div.menu ul li a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    /*aumenta o tamanho do texto*/
+    text-transform: uppercase;
+}
+
+
+/*ao passar o mouse encima*/
+div.menu ul li a:hover {
+    color: var(--corMarrom);
+}

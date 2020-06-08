@@ -1,0 +1,29 @@
+
+/*  conjunto de regras que ajudam na responsividade do site*/
+/* responsividade para dispositivos moveis */
+@media (max-width: 900px) {
+    #page-home {
+        /* quando a tela fica menor o background da imagem some */
+        background-position-x: 70vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a {
+        /* absolute faz com que o elemento fico encima --> sobreposto */
+        /* botton --> o elemento esta a 48px acima do rodape */
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        /* quando a tela fica pequena o botão de pesquisa pontos de coleta fica centralizado */
+        align-items: center;
+    }
+}

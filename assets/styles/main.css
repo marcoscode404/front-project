@@ -1,0 +1,32 @@
+/* tecnica para usando uma especie de variavel para não repetir valores de cor etc.. */
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font-family: Roboto, sans-serif;
+}
+body {
+    /* cor de fundo */
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    /* todos os links que tiverem não terá o text-decoration embaixo */
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: ubuntu, sans-serif;
+    color: var(--title-color);
+}
+
+
+

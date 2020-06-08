@@ -1,0 +1,142 @@
+.login {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color:  white;
+    
+
+
+}
+
+.login-form {
+    width: 50%;
+    height: 100%;
+    background-color: #263238;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-login {
+    width: 50%;
+    height: 100%;
+    background-color: #263238fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*posicionando a imagem*/
+.banner-login img {
+    position: relative;
+    bottom: 1px;
+    border-radius: 8px;
+}
+
+/*posicionando o h2*/
+.banner-login img {
+    position: relative;
+    bottom: 10px;
+    width: 350px;
+    height: 330px;
+    box-shadow: 1.70px 0.20px 0.10px 0.10px rgba(92, 88, 88, 0.459),
+    5px 0.30px 3px 2px rgba(46, 38, 38, 0.459);
+    
+}
+
+
+
+.login-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgba(221, 221, 221, 0.199);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+.login-form-wrapper button {
+    width: 100%;
+    margin: auto;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    /*-------------------------------*/
+    transform: translate(-1%, -1%);     
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 400%;
+    z-index: 1;
+
+}
+
+
+/*quando passar o mouse por cima*/
+.login-form-wrapper button:hover {
+    border: none;
+    color: #fff;
+    transform: scale(1.05);
+    transition: .2s;
+    animation: animate 8s linear infinite;
+}
+
+
+@keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 400%;
+    }
+}
+
+
+.login-form-wrapper button:before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b94, #03a9f4);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.login-form-wrapper button:hover:before {
+    filter: blur(10px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+}
+
+
+
+
+
+
+
+/*titulo aqui*/
+.login-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}

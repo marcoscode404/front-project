@@ -1,0 +1,39 @@
+
+/*configurações no dashboard lateral é aqui*/
+.flex-dashboard header ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    background-color: #1c1e21fb;
+    padding: 11px 30px;
+    border: 1px solid rgba(0,0,0, .0625);
+    
+   
+
+}
+
+/*style dos icones e ==> Dashboard e logout*/
+.flex-dashboard header ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 108px;
+    height: 58px;
+    text-decoration: none;
+    color: #1db650;
+    border-radius: 6px;
+}
+
+
+/* quando você busca os icones no fonte wase ele rederiza atraves do javaScript e transforma em svg */
+/*o proprio fontewase que faz isso */
+.flex-dashboard header a > svg {
+    color: #6e8efb;
+
+}
+
+.flex-dashboard header ul li :hover {
+    background-color: rgba(204, 204, 204, 0.13);
+}

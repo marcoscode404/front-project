@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./styleProjeto/mainPrincipal.css">
+    <link rel="stylesheet" href="./styleProjeto/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styleProjeto/plugins/fontawesome/css/all.min.css">
+
+
+</head>
+<body>
+    <div class="login">
+        <div class="login-form">
+          <div class="login-form-wrapper">
+              <div class="login-title">
+                  <h2>Login Unimed</h2>
+                  <a href="views/registro.html">inscreva-se</a>
+              </div>
+              <!-- /.login-title -->
+            <form>
+                <div class="form-group">
+                    <label for="email" >Email</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu email" required>
+                    
+                </div>
+
+                <div class="form-group">
+                    <label for="Senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" placeholder="Senha" required>
+                </div>
+
+                <button type="submit" class="btn">Login</button>
+              </form>
+          </div>
+          <!-- /.login-form-wrapper -->
+        </div>
+        <!-- /.form-->
+
+
+        <div class="banner-login">
+            <img src="./img/logo.png" alt="imagem Unimed">
+            <h4>Tecnologia da informação</h4>
+        </div>
+        <!-- /.banner-login -->
+    </div>
+    <!-- /.login -->
+
+
+
+
+    <script src="./styleProjeto/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./styleProjeto/plugins/fontawesome/js/all.min.js"></script>
+
+    <!-- script para redirecionar para o dashboard-->
+    <script>
+        let button = document.querySelector('form button.btn')
+        button.addEventListener("click", () => {
+            location.href = "views/painelControle.html"
+        })
+    </script>
+
+</body>
+</html>
