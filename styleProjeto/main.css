@@ -73,10 +73,10 @@ main .main-content {
 
 
 .panel-row {
-    width: 50%;
+    width: 30%;
     height: 50px;
     padding: 2px center;
-    margin-left: auto;
+    margin-left: 69%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -86,40 +86,57 @@ main .main-content {
 }
 
 
-
-
-
-.pes {
-    width: 100%;
-}
-
-.pes form {
-    width: 100%;
+/*search  => pesquisa*/
+.search-box {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    transform: translate(50, 5%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
 }
 
-    
-.pes input{
-    width: 100%;
+
+/*ao passar o mouse encima*/
+.search-box:hover > .search-txt{
+    width: 300px;
+    padding: 0 6px;
+}
+
+.search-box:hover > .search-btn{
+    background: #fff;
+}
+
+
+
+
+.search-btn {
+    color: #6e8efb;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2f3640;
     display: flex;
-    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.search-txt {
     border: none;
-    
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
 }
-
-.pes input:hover {
-    border-radius: 8px ;
-
-
-}
-
-
-.pes form button {
-    height: 20px;
-    width: 20px;
-    color: rgba(29, 9, 9, 0.836);
-    border: none;
-    background: #ccc;
-}
-
 
