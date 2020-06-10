@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: 90px;
     background-color: #1c1e21fb;
     padding: 11px 30px;
@@ -36,4 +36,68 @@
 
 .flex-dashboard header ul li :hover {
     background-color: rgba(204, 204, 204, 0.13);
+}
+
+
+
+
+
+
+
+
+
+
+/*search  => pesquisa*/
+.flex-dashboard header ul li .search-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    transform: translate(50, 5%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+/*ao passar o mouse encima*/
+.flex-dashboard header ul li .search-box:hover > .search-txt{
+    width: 220px;
+    padding: 0 6px;
+    
+}
+
+.flex-dashboard header ul li .search-box:hover > .search-btn{
+    background: #fff;
+}
+
+
+
+
+.flex-dashboard header ul li .search-btn {
+    color: #6e8efb;
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.flex-dashboard header ul li .search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+
 }
