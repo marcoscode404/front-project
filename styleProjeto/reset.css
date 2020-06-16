@@ -1,7 +1,8 @@
 :root {
     --corVerde: #1db650;
     --corBranca: rgba(207, 195, 171, 0.205);
-    --corMarrom: #14a02b;
+    --corMarrom: rgb(13, 155, 211);
+    --corRoxo: rgb(113, 89, 193);
 }
 
 /*pega todos os elemntos do body*/
