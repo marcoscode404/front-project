@@ -1,0 +1,101 @@
+.sistemas {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+
+.container {
+    width: 100%;
+    height: 94%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(113, 89, 193);
+    border-radius: 15px;
+    box-shadow: 0px 0.20px 2.10px 1.10px rgba(92, 88, 88, 0.459);
+    
+}
+
+.sistemas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sistemas ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    
+    
+
+
+}
+
+/*estilos da li´s*/
+.sistemas ul li{
+    background: #fff;
+    border: 1px solid  #ccc;
+    padding: 20px 20px;
+
+    width: 30%;
+    height: 50%;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30%;
+    transition: all 1s;
+    cursor: pointer;
+
+}
+
+/*estilizando a cor dos icones */
+.sistemas ul li svg {
+    color: #6e8efb;
+    font-size: 20px;
+}
+
+
+.sistemas ul li a {
+    color: #000;
+    margin-left: 1px;
+    text-decoration: none;
+   
+    
+}
+
+.sistemas ul li a:hover {
+    color: #fff;
+}
+
+.sistemas ul li:hover {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg) scale(1.1);
+    background-color: #30363280;
+    border-color: rgba(0, 0, 0, 0.445);
+    border-radius: 5%;
+    
+
+
+
+}
+
+.sistemas h4 {
+    color: red;
+}
+
+.sistemas h4 span{
+    color: green;
+}
+
+

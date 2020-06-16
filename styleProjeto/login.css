@@ -11,17 +11,32 @@
 .login-form {
     width: 50%;
     height: 100%;
-    background-color: #263238;
+    background-color: #095385;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+   
 }
+
+
+.login-form a {
+    color: #0b9952;
+}
+
+.login-form a:hover {
+    color: red;
+}
+
+
+
+
+
 
 .banner-login {
     width: 50%;
     height: 100%;
-    background-color: #263238fa;
+    background-color: #088647;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,10 +48,10 @@
 .banner-login img {
     position: relative;
     bottom: 1px;
-    border-radius: 8px;
+    border-radius: 50px;
 }
 
-/*posicionando o h2*/
+/*posicionando a img*/
 .banner-login img {
     position: relative;
     bottom: 10px;
@@ -47,12 +62,16 @@
     
 }
 
+.banner-login h4 {
+    color: #fff;
+}
+
 
 
 .login-form-wrapper {
     width: 100%;
     max-width: 400px;
-    border: 1px solid rgba(221, 221, 221, 0.199);
+    border: 2px solid rgba(221, 221, 221, 0.199);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -76,7 +95,7 @@
     margin-top: 10px;
     /*-------------------------------*/
     transform: translate(-1%, -1%);     
-    background: linear-gradient(90deg, #17b466,  #03a9f4);
+    background: linear-gradient(90deg, #17b466,  #17b466);
     background-size: 400%;
     z-index: 1;
 
@@ -111,10 +130,10 @@
     right: -5px;
     bottom: -5px;
     z-index: -1;
-    background: linear-gradient(90deg, #17b466, #03a9f4);
+    background: linear-gradient(90deg, #17b466, rgba(170, 170, 21, 0.671), #17b466);
     background-size: 400%;
     border-radius: 40px;
-    filter: blur(20px);
+    filter: blur(2px);
     opacity: 0;
     transition: 0.5s;
 }
