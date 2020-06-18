@@ -73,7 +73,7 @@ div.menu ul li{
 
 /*estilizando a cor dos icones */
 div.menu ul li svg {
-    color: #6e8efb;
+    color: var(--corRoxo);
     font-size: 25px;
 }
 
@@ -89,5 +89,5 @@ div.menu ul li a {
 
 /*ao passar o mouse encima*/
 div.menu ul li a:hover {
-    color: var(--corMarrom);
+    color: var(--corRoxo);
 }

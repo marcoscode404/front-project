@@ -29,16 +29,18 @@
     
     margin-left: 90px;
     margin-right: 50px;
-    margin: 1px solid red;
+
+    border-radius: 1%;
 
 }
 
 .imagens h2 {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: center;
 
-    width: 80%;
+    width: 83%;
     height: 10%;
     border: 1px solid #ccc;
     margin: 20px 2px 20px 85px;
